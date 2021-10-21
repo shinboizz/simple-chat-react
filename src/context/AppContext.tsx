@@ -13,14 +13,27 @@ interface AppDataProps {
     getStore: () => Firestore;
 }
 
+// const firebaseApp = initializeApp({
+//     apiKey: "AIzaSyAwJXBubQlTq5SxuWpy7ekwXRSl9Z_jO0U",
+//     authDomain: "simple-chat-dntu.firebaseapp.com",
+//     projectId: "simple-chat-dntu",
+//     storageBucket: "simple-chat-dntu.appspot.com",
+//     messagingSenderId: "278628401805",
+//     appId: "1:278628401805:web:4cd542c5d8179e943d98c4"
+// })
+
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
 const firebaseApp = initializeApp({
-    apiKey: "AIzaSyAwJXBubQlTq5SxuWpy7ekwXRSl9Z_jO0U",
-    authDomain: "simple-chat-dntu.firebaseapp.com",
-    projectId: "simple-chat-dntu",
-    storageBucket: "simple-chat-dntu.appspot.com",
-    messagingSenderId: "278628401805",
-    appId: "1:278628401805:web:4cd542c5d8179e943d98c4"
-})
+    apiKey: "AIzaSyBY7x5VPOwiFH25xS04VblbnK-Jl3WeMLM",
+    authDomain: "shinboizz.firebaseapp.com",
+    projectId: "shinboizz",
+    storageBucket: "shinboizz.appspot.com",
+    messagingSenderId: "103466513596",
+    appId: "1:103466513596:web:54e5dd748a66175c640cb9",
+    measurementId: "G-45G2CXDK80"
+  });
+
 
 const AppContext = createContext<Partial<AppDataProps>>({});
 
