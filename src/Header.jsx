@@ -20,7 +20,7 @@ export default function Header(props) {
         <Grid container style={{ display: "flex", alignItems: "center" }}>
             <Grid item xs={11} sm={6} md={6} lg={8}>
                 <Chip
-                    label="Đồ án môn Công Nghệ Lập Trình Tiên Tiến"
+                    label="Room Chat!"
                     color="primary"
                     variant="outlined"
                     clickable
